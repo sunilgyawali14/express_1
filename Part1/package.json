@@ -2,9 +2,9 @@
   "name": "part1",
   "version": "1.0.0",
   "description": "",
-  "main": "express.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon express.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
