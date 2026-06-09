@@ -1,0 +1,3 @@
+const getAllnodes=(req,res)=>{
+    
+}

@@ -4,7 +4,7 @@ const noteRoute= express.Router()
 // features
 noteRoute.get("/")
 noteRoute.post("/")
-noteRoute.put("/:id")
+noteRoute.put("/")
 noteRoute.delete("/:id")
 noteRoute.get("/:id")
 
