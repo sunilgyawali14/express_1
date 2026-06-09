@@ -1,8 +1,13 @@
 const express=require('express')
 const dotenv=require('dotenv')
+const logger=require('./middleware/logger')
 const app=express()
+dotenv.config()
 const PORT=process.env.PORT || 3000
-app.use(express.json()) 
+
+app.use(express.json()) ;
+app.use(logger)
+
 app.get('/',(req,res)=>{
     res.send('this is home page ')
 })
